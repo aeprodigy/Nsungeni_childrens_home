@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="./donat.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donate To a help a child</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="about-us.css" />
+    <!-- FontAwesome recently requires an email address to obtain an embed code - here's a workaround-->
+    <link rel="stylesheet" href="/contact.css">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+    <!-- add icon link -->
+    <!-- add icon link -->
+    <link rel="icon" href="./log.png" type="image/x-icon" />
+    <script src="./index.js" defer></script>
+    <script src="./donat.js" defer></script>
+    <link rel="stylesheet" href="donate.css" />
+  </head>
+  <body>
+    <header class="header donate-header">
+      <div class="logo">
+        <img src="./log.png" alt="" />
+        <div class="logoie">
+          <h3>Nsungeni</h3>
+          <p class="small">Children’s home</p>
+        </div>
+      </div>
+      <div id="humburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="mobile-menu">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="./team.html">Team</a></li>
+          <li>
+            <button class="btn">
+              <a href="./donate.html" rel="noopener noreferrer" class="color"
+                >Donate</a
+              >
+            </button>
+          </li>
+        </ul>
+      </div>
+      <nav class="nav-bar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="./team.html">Team</a></li>
+          <li><a href="./donate.html" class="red">Donate</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!---CONTACT US PAGE STARTS HERE-->
+    <section class="body">
+        <!--Contact Container-->
+        <div class="contact-container">
+            <!--Form-->
+            <div class="form-container">
+                <h3>Contact Us</h3>
+                <form action="" class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" name="" id="" placeholder="Enter your Email..." required>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Write your message here" required></textarea>
+                    <input type="submit" value="Send" class="send-button">
+                </form>
+            </div>
+            <!--Google Map here-->
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3871.7379577076586!2d28.683933948806096!3d-13.974197045410536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19152b2599e40c91%3A0x4f3aba942be53ab5!2sIndependence%20Ave%2C%20Kapiri%20Mposhi!5e0!3m2!1sen!2szm!4v1674846625884!5m2!1sen!2szm"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+  </body>
+</html>
